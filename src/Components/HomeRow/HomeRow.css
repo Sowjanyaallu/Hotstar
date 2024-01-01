@@ -1,0 +1,25 @@
+.homerow{
+    overflow: auto;
+    margin-left: 1rem;
+
+}
+.homerow h1{
+    color: white;
+}
+.movie-list{
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.movie-list img{
+    width: 260px;
+    height: 290px;
+    margin: 1rem;
+}
+.movie-list::-webkit-scrollbar{
+    display: none;
+}
+.movie-content:hover{
+    transform: scale(1.1);
+    border-radius: 5%;
+}

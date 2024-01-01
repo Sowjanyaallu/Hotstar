@@ -1,0 +1,22 @@
+.related{
+    color: #fff;
+    overflow: auto;
+}
+.related-movies{
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+
+}
+.related-movies img{
+    width: 260px;
+    height: 280px;
+    margin: 1rem;
+}
+.related-movies::-webkit-scrollbar{
+    display: none;
+}
+.relate-img:hover{
+    transform: scale(1.1);
+    border-radius: 5%;
+}

@@ -1,0 +1,44 @@
+.navbar{
+    width: 6%;
+    height: 100%;
+    background-image: linear-gradient(180deg,  #02010e 50%, transparent) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.navbar:hover{
+    width: 12%; 
+    transition: width 300ms ease-in-out; 
+}
+
+.navbar-logo img{
+    width: 7rem;
+}
+.navbar-menu{
+    height: 45%;
+    color: #a2a0a0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 19px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.navbar-icons{
+    display: flex;
+    align-items: center;
+}
+.navbar-icons p{
+    margin-left: 1rem;
+    display: none;
+}
+.navbar:hover .navbar-icons p{
+    display: block;
+    width: 12%;
+    z-index: 1;
+    color: #fff;
+}
+.navbar:hover .navbar-icons{
+    color:white ;
+}

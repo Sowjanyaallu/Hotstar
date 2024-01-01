@@ -1,0 +1,26 @@
+.movie-row{
+    overflow: auto;
+
+}
+.movie-row h1{
+    color: #fff;
+}
+.movie-row-list{
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.movie-row-list img{
+    width: 240px;
+    height: 270px;
+    margin: 2rem;
+}
+.movie-row-list::-webkit-scrollbar{
+    display: none;
+}
+.movies-cotents:hover{
+    transform: scale(1.1);
+    border-radius: 5%;
+    transition: 200ms ease-in-out;
+
+}
